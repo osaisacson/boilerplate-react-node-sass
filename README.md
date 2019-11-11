@@ -1,11 +1,7 @@
-# Demos-UK
+# Boilerplate - React/Node/Sass/Heroku
 
-Overview of who your political representative is, what they're doing and how well their actions match your opinions.
-
-## Stack
-
-Uses react/node/sass and deploys with Heroku.
-Infrastructure based on this example: https://www.youtube.com/watch?v=eHWK4Pu6dmE
+Uses react/node/sass and deploys with heroku.
+Client/server setup based on this example: https://www.youtube.com/watch?v=eHWK4Pu6dmE
 
 ## Getting Started
 
@@ -41,18 +37,22 @@ brew install node
 
 ### Original setup
 
-1. Clone this git repository to your local machine. Stand in the parent folder where you want the project to live and write:
+1. Go to https://github.com/osaisacson/boilerplate-react-node-sass.git
+
+2. Click on 'Use this template' and follow the steps to set up a new repository based on this code.
+
+3.Clone the git repository you just created to your local machine. Stand in the parent folder where you want the project to live and copy the address to your repo:
 
 ```
-git clone https://github.com/osaisacson/demos-uk.git
+git clone https://github.com/*path-to-your-new-repo*
 ```
 
-...this will create a 'demos-uk' folder with latest code from github.
+...this will create a 'name-of-your-project' folder with latest code from github.
 
 2. Initialize git
 
 ```
-cd demos-uk
+cd name-of-your-project
 git init
 ```
 
@@ -144,19 +144,19 @@ git add .
 git commit -m "commit message"
 git push (you'll be prompted to set the upstream branch, use the given suggestion)
 (repeat above until happy and glowing), then:
-go to https://github.com/osaisacson/demos-uk and make a PR (just press the pretty obvious button called 'Compare & pull request') doublecheck that it is from your branch to the master branch
+go to https://github.com/osaisacson/name-of-your-project and make a PR (just press the pretty obvious button called 'Compare & pull request') doublecheck that it is from your branch to the master branch
 ```
 
 ### Build, build, buildin.
 
-1. Go to https://github.com/osaisacson/demos-uk
+1. Go to https://github.com/osaisacson/name-of-your-project
 
 2. Approve an existing PR and merge it to the master branch - this will automatically build the app on Heroku (setup for this is in step 4-5 under the heroku deployment section above)
 
 3. Give it a minute, then check out the heroku address of your app to see that it built successfully with the changes from the PR.
 
 ```
-https://demos-uk.herokuapp.com/
+https://name-of-your-project.herokuapp.com/
 ```
 
 ## Useful commands
